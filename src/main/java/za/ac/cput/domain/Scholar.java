@@ -14,7 +14,7 @@ public class Scholar {
     private String lastName;
     private String email;
 
-    protected Scholar() {
+    public Scholar() {
 
     }
     protected Scholar(Builder scholar) {

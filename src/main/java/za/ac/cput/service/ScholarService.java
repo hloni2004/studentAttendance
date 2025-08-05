@@ -8,7 +8,7 @@ import za.ac.cput.repository.ScholarRepository;
 @Service
 public class ScholarService implements IScholarService{
 
-    private ScholarRepository scholarRepository;
+    private final ScholarRepository scholarRepository;
 
     @Autowired
     public ScholarService(ScholarRepository scholarRepository) {
